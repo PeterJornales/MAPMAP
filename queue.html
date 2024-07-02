@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./queue.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="queue">
+      <div class="queue-confirmation">
+        <img class="grad-icon7" alt="" src="./public/grad.svg" />
+
+        <div class="extra7">
+          <div class="payment14">Payment</div>
+          <img
+            class="profile-icon7"
+            alt=""
+            src="./public/profile@2x.png"
+            id="profileIcon"
+          />
+
+          <div class="welcome2">Welcome, KARL!</div>
+          <div class="extra-child4"></div>
+        </div>
+        <div class="queue-confirmation1">
+          <div class="container-credits">
+            <img class="box-icon1" alt="" src="./public/box1.svg" />
+
+            <div class="payment-details">
+              <div class="row-1">
+                <div class="payment-detail">
+                  <div class="student-name">Amount</div>
+                  <div class="div11">₱12,500.00</div>
+                </div>
+                <div class="payment-detail">
+                  <div class="student-name">Date</div>
+                  <div class="july-2024-1322">1 July 2024, 13:22</div>
+                </div>
+              </div>
+              <div class="row-1">
+                <div class="payment-detail">
+                  <div class="student-name">Payment Method</div>
+                  <div class="cash">CASH</div>
+                </div>
+                <div class="payment-detail">
+                  <div class="student-name">Student Name</div>
+                  <div class="cash">Karl Lumabi</div>
+                </div>
+              </div>
+            </div>
+            <div class="done" id="dONEText">DONE</div>
+            <div class="amount2">
+              <div class="p354">P354</div>
+            </div>
+          </div>
+        </div>
+        <div class="queue-number">Queue Number</div>
+        <b class="queue-confirmation2">Queue Confirmation</b>
+        <div class="queue-confirmation-child"></div>
+        <img
+          class="queue-confirmation-item"
+          alt=""
+          src="./public/vector-429.svg"
+        />
+      </div>
+      <div class="sidebar7">
+        <div class="background7"></div>
+        <div class="adnupay-ver01beta7">AdNUPay ver0.1beta</div>
+        <div class="hover7"></div>
+        <div class="settings21" id="settingsContainer">
+          <div class="settings22">Settings</div>
+          <div class="rectangle-parent4">
+            <div class="group-child28"></div>
+            <div class="group-child29"></div>
+            <div class="group-child30"></div>
+            <div class="group-child31"></div>
+          </div>
+        </div>
+        <div class="transaction16" id="transactionContainer">
+          <div class="transaction17">Transaction</div>
+          <img class="transaction-child4" alt="" src="./public/group-4.svg" />
+        </div>
+        <div class="payment15" id="paymentContainer">
+          <div class="payment16">Payment</div>
+          <img class="payment-child5" alt="" src="./public/group-31.svg" />
+        </div>
+        <div class="dashboard15" id="dashboardContainer">
+          <div class="dashboard16">Dashboard</div>
+          <img class="dashboard-child5" alt="" src="./public/group-21.svg" />
+        </div>
+        <img
+          class="header-icon7"
+          alt=""
+          src="./public/header@2x.png"
+          id="headerImage"
+        />
+      </div>
+    </div>
+
+    <script>
+      var profileIcon = document.getElementById("profileIcon");
+      if (profileIcon) {
+        profileIcon.addEventListener("click", function (e) {
+          window.location.href = "./account-information.html";
+        });
+      }
+
+      var dONEText = document.getElementById("dONEText");
+      if (dONEText) {
+        dONEText.addEventListener("click", function (e) {
+          window.location.href = "./payment.html";
+        });
+      }
+
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+
+      var transactionContainer = document.getElementById("transactionContainer");
+      if (transactionContainer) {
+        transactionContainer.addEventListener("click", function (e) {
+          window.location.href = "./transaction.html";
+        });
+      }
+
+      var paymentContainer = document.getElementById("paymentContainer");
+      if (paymentContainer) {
+        paymentContainer.addEventListener("click", function (e) {
+          window.location.href = "./payment.html";
+        });
+      }
+
+      var dashboardContainer = document.getElementById("dashboardContainer");
+      if (dashboardContainer) {
+        dashboardContainer.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+
+      var headerImage = document.getElementById("headerImage");
+      if (headerImage) {
+        headerImage.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+    </script>
+  </body>
+</html>

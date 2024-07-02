@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./payment-g-cash.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="payment-gcash">
+      <img class="grad-icon5" alt="" src="./public/grad.svg" />
+
+      <div class="extra5">
+        <div class="settings16">Settings</div>
+        <div class="name5">Welcome, KARL!</div>
+        <div class="extra-child2"></div>
+        <img
+          class="profile-icon5"
+          alt=""
+          src="./public/profile@2x.png"
+          id="profileIcon"
+        />
+      </div>
+      <div class="container-contact2">
+        <img class="box-icon" alt="" src="./public/box.svg" />
+
+        <div class="form-city2">
+          <div class="form-city-inner"></div>
+          <div class="authentication-code">Authentication Code</div>
+        </div>
+        <div class="form-billingaddress4">
+          <div class="form-billingaddress-child2"></div>
+          <div class="mobile-number">Mobile Number</div>
+        </div>
+        <div class="form-billingaddress5">
+          <div class="form-billingaddress-child3"></div>
+          <div class="linked-bank-account">Linked Bank Account or Card</div>
+        </div>
+        <div class="link-card2">Link Card</div>
+        <div class="vector-parent1" id="groupContainer">
+          <img
+            class="group-child19"
+            alt=""
+            src="./public/rectangle-40481.svg"
+          />
+
+          <div class="confirm4">CONFIRM</div>
+        </div>
+      </div>
+      <div class="container-payment2">
+        <div class="box4"></div>
+        <div class="payment-method2">
+          <img
+            class="payment-method-child4"
+            alt=""
+            src="./public/rectangle-4028@2x.png"
+          />
+
+          <img
+            class="payment-method-child5"
+            alt=""
+            src="./public/rectangle-4027@2x.png"
+            id="rectangleImage1"
+          />
+
+          <img
+            class="payment-method-child6"
+            alt=""
+            src="./public/rectangle-4026@2x.png"
+            id="rectangleImage2"
+          />
+        </div>
+        <div class="card-type2">Card Type</div>
+      </div>
+      <img class="button-icon2" alt="" src="./public/button@2x.png" />
+
+      <div class="sidebar5">
+        <div class="background5"></div>
+        <div class="adnupay-ver01beta5">AdNUPay ver0.1beta</div>
+        <div class="hover5"></div>
+        <div class="settings17" id="settingsContainer">
+          <div class="settings18">Settings</div>
+          <div class="rectangle-parent2">
+            <div class="group-child20"></div>
+            <div class="group-child21"></div>
+            <div class="group-child22"></div>
+            <div class="group-child23"></div>
+          </div>
+        </div>
+        <div class="transaction10" id="transactionContainer">
+          <div class="transaction11">Transaction</div>
+          <img class="transaction-child2" alt="" src="./public/group-4.svg" />
+        </div>
+        <div class="payment10" id="paymentContainer">
+          <div class="payment11">Payment</div>
+          <img class="payment-child3" alt="" src="./public/group-31.svg" />
+        </div>
+        <div class="dashboard11" id="dashboardContainer">
+          <div class="dashboard12">Dashboard</div>
+          <img class="dashboard-child3" alt="" src="./public/group-21.svg" />
+        </div>
+        <img
+          class="header-icon5"
+          alt=""
+          src="./public/header@2x.png"
+          id="headerImage"
+        />
+      </div>
+    </div>
+
+    <script>
+      var profileIcon = document.getElementById("profileIcon");
+      if (profileIcon) {
+        profileIcon.addEventListener("click", function (e) {
+          window.location.href = "./account-information.html";
+        });
+      }
+
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./reciept.html";
+        });
+      }
+
+      var rectangleImage1 = document.getElementById("rectangleImage1");
+      if (rectangleImage1) {
+        rectangleImage1.addEventListener("click", function (e) {
+          window.location.href = "./payment-pay-pal.html";
+        });
+      }
+
+      var rectangleImage2 = document.getElementById("rectangleImage2");
+      if (rectangleImage2) {
+        rectangleImage2.addEventListener("click", function (e) {
+          window.location.href = "./payment-visa.html";
+        });
+      }
+
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+
+      var transactionContainer = document.getElementById("transactionContainer");
+      if (transactionContainer) {
+        transactionContainer.addEventListener("click", function (e) {
+          window.location.href = "./transaction.html";
+        });
+      }
+
+      var paymentContainer = document.getElementById("paymentContainer");
+      if (paymentContainer) {
+        paymentContainer.addEventListener("click", function (e) {
+          window.location.href = "./payment.html";
+        });
+      }
+
+      var dashboardContainer = document.getElementById("dashboardContainer");
+      if (dashboardContainer) {
+        dashboardContainer.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+
+      var headerImage = document.getElementById("headerImage");
+      if (headerImage) {
+        headerImage.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+    </script>
+  </body>
+</html>

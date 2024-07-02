@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./payment-visa.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="payment-visa">
+      <img class="grad-icon3" alt="" src="./public/grad.svg" />
+
+      <div class="extra3">
+        <div class="settings10">Settings</div>
+        <div class="name3">Welcome, KARL!</div>
+        <div class="line-div"></div>
+        <img
+          class="profile-icon3"
+          alt=""
+          src="./public/profile@2x.png"
+          id="profileIcon"
+        />
+      </div>
+      <div class="container-contact">
+        <div class="box"></div>
+        <div class="form-city">
+          <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+          <img class="vector-icon1" alt="" src="./public/vector.svg" />
+
+          <img class="vector-icon2" alt="" src="./public/vector.svg" />
+
+          <img class="vector-icon3" alt="" src="./public/vector.svg" />
+
+          <img class="vector-icon4" alt="" src="./public/vector1.svg" />
+
+          <img class="vector-icon5" alt="" src="./public/vector1.svg" />
+
+          <img class="vector-icon6" alt="" src="./public/vector2.svg" />
+
+          <div class="form-city-child"></div>
+          <div class="expiry-date">Expiry Date</div>
+        </div>
+        <div class="form-zipcode">
+          <div class="form-city-child"></div>
+          <div class="cvv">CVV</div>
+        </div>
+        <div class="form-billingaddress">
+          <div class="form-billingaddress-child"></div>
+          <div class="card-number">Card Number</div>
+        </div>
+        <div class="form-billingaddress1">
+          <div class="form-billingaddress-child"></div>
+          <div class="cardholders-name">Cardholder’s Name</div>
+        </div>
+        <div class="link-card">Link Card</div>
+      </div>
+      <div class="container-payment">
+        <div class="box1"></div>
+        <div class="payment-method">
+          <img
+            class="payment-method-child"
+            alt=""
+            src="./public/rectangle-4028@2x.png"
+            id="rectangleImage"
+          />
+
+          <img
+            class="payment-method-item"
+            alt=""
+            src="./public/rectangle-4027@2x.png"
+            id="rectangleImage1"
+          />
+
+          <img
+            class="payment-method-inner"
+            alt=""
+            src="./public/rectangle-4026@2x.png"
+          />
+        </div>
+        <div class="card-type">Card Type</div>
+        <img class="button-icon" alt="" src="./public/button@2x.png" />
+      </div>
+      <div class="vector-group" id="groupContainer">
+        <img class="group-child9" alt="" src="./public/rectangle-40481.svg" />
+
+        <div class="confirm2">CONFIRM</div>
+      </div>
+      <div class="sidebar3">
+        <div class="background3"></div>
+        <div class="adnupay-ver01beta3">AdNUPay ver0.1beta</div>
+        <div class="hover3"></div>
+        <div class="settings11" id="settingsContainer">
+          <div class="settings12">Settings</div>
+          <div class="group-div">
+            <div class="group-child10"></div>
+            <div class="group-child11"></div>
+            <div class="group-child12"></div>
+            <div class="group-child13"></div>
+          </div>
+        </div>
+        <div class="transaction6" id="transactionContainer">
+          <div class="transaction7">Transaction</div>
+          <img class="group-icon" alt="" src="./public/group-4.svg" />
+        </div>
+        <div class="payment6" id="paymentContainer">
+          <div class="payment7">Payment</div>
+          <img class="payment-child1" alt="" src="./public/group-31.svg" />
+        </div>
+        <div class="dashboard7" id="dashboardContainer">
+          <div class="dashboard8">Dashboard</div>
+          <img class="dashboard-child1" alt="" src="./public/group-21.svg" />
+        </div>
+        <img
+          class="header-icon3"
+          alt=""
+          src="./public/header@2x.png"
+          id="headerImage"
+        />
+      </div>
+    </div>
+
+    <script>
+      var profileIcon = document.getElementById("profileIcon");
+      if (profileIcon) {
+        profileIcon.addEventListener("click", function (e) {
+          window.location.href = "./account-information.html";
+        });
+      }
+
+      var rectangleImage = document.getElementById("rectangleImage");
+      if (rectangleImage) {
+        rectangleImage.addEventListener("click", function (e) {
+          window.location.href = "./payment-g-cash.html";
+        });
+      }
+
+      var rectangleImage1 = document.getElementById("rectangleImage1");
+      if (rectangleImage1) {
+        rectangleImage1.addEventListener("click", function (e) {
+          window.location.href = "./payment-pay-pal.html";
+        });
+      }
+
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./reciept.html";
+        });
+      }
+
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+
+      var transactionContainer = document.getElementById("transactionContainer");
+      if (transactionContainer) {
+        transactionContainer.addEventListener("click", function (e) {
+          window.location.href = "./transaction.html";
+        });
+      }
+
+      var paymentContainer = document.getElementById("paymentContainer");
+      if (paymentContainer) {
+        paymentContainer.addEventListener("click", function (e) {
+          window.location.href = "./payment.html";
+        });
+      }
+
+      var dashboardContainer = document.getElementById("dashboardContainer");
+      if (dashboardContainer) {
+        dashboardContainer.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+
+      var headerImage = document.getElementById("headerImage");
+      if (headerImage) {
+        headerImage.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+    </script>
+  </body>
+</html>

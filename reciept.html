@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./reciept.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="reciept">
+      <div class="payment-success">
+        <img class="grad-icon8" alt="" src="./public/grad.svg" />
+
+        <div class="extra8">
+          <div class="payment17">Payment</div>
+          <img
+            class="profile-icon8"
+            alt=""
+            src="./public/profile@2x.png"
+            id="profileIcon"
+          />
+
+          <div class="welcome3">Welcome, KARL!</div>
+          <div class="extra-child5"></div>
+        </div>
+        <div class="queue-confirmation3">
+          <div class="container-credits1">
+            <img class="box-icon2" alt="" src="./public/box1.svg" />
+
+            <div class="payment-details1">
+              <div class="row-11">
+                <div class="payment-detail4">
+                  <div class="ref-number">Ref Number</div>
+                  <div class="div12">000085752257</div>
+                </div>
+                <div class="payment-detail4">
+                  <div class="ref-number">Payment Time</div>
+                  <div class="div12">1 July 2024, 13:22</div>
+                </div>
+              </div>
+              <div class="row-11">
+                <div class="payment-detail4">
+                  <div class="ref-number">Payment Method</div>
+                  <div class="bank-transfer">Bank Transfer</div>
+                </div>
+                <div class="payment-detail4">
+                  <div class="ref-number">Sender Name</div>
+                  <div class="bank-transfer">Karl Lumabi</div>
+                </div>
+              </div>
+            </div>
+            <div class="done1" id="dONEText">DONE</div>
+            <div class="amount3">
+              <div class="total-payment">Total Payment</div>
+              <div class="div13">₱ 12,500.00</div>
+            </div>
+          </div>
+          <div class="your-payment-has">
+            Your payment has been successfully done
+          </div>
+        </div>
+        <b class="payment-success1">Payment Success!</b>
+        <div class="payment-success-child"></div>
+        <img
+          class="payment-success-item"
+          alt=""
+          src="./public/vector-429.svg"
+        />
+      </div>
+      <div class="sidebar8">
+        <div class="background8"></div>
+        <div class="adnupay-ver01beta8">AdNUPay ver0.1beta</div>
+        <div class="hover8"></div>
+        <div class="settings23" id="settingsContainer">
+          <div class="settings24">Settings</div>
+          <div class="rectangle-parent5">
+            <div class="group-child32"></div>
+            <div class="group-child33"></div>
+            <div class="group-child34"></div>
+            <div class="group-child35"></div>
+          </div>
+        </div>
+        <div class="transaction18" id="transactionContainer">
+          <div class="transaction19">Transaction</div>
+          <img class="transaction-child5" alt="" src="./public/group-4.svg" />
+        </div>
+        <div class="payment18" id="paymentContainer">
+          <div class="payment19">Payment</div>
+          <img class="payment-child6" alt="" src="./public/group-31.svg" />
+        </div>
+        <div class="dashboard17" id="dashboardContainer">
+          <div class="dashboard18">Dashboard</div>
+          <img class="dashboard-child6" alt="" src="./public/group-21.svg" />
+        </div>
+        <img
+          class="header-icon8"
+          alt=""
+          src="./public/header@2x.png"
+          id="headerImage"
+        />
+      </div>
+    </div>
+
+    <script>
+      var profileIcon = document.getElementById("profileIcon");
+      if (profileIcon) {
+        profileIcon.addEventListener("click", function (e) {
+          window.location.href = "./account-information.html";
+        });
+      }
+
+      var dONEText = document.getElementById("dONEText");
+      if (dONEText) {
+        dONEText.addEventListener("click", function (e) {
+          window.location.href = "./payment.html";
+        });
+      }
+
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+
+      var transactionContainer = document.getElementById("transactionContainer");
+      if (transactionContainer) {
+        transactionContainer.addEventListener("click", function (e) {
+          window.location.href = "./transaction.html";
+        });
+      }
+
+      var paymentContainer = document.getElementById("paymentContainer");
+      if (paymentContainer) {
+        paymentContainer.addEventListener("click", function (e) {
+          window.location.href = "./payment.html";
+        });
+      }
+
+      var dashboardContainer = document.getElementById("dashboardContainer");
+      if (dashboardContainer) {
+        dashboardContainer.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+
+      var headerImage = document.getElementById("headerImage");
+      if (headerImage) {
+        headerImage.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+    </script>
+  </body>
+</html>

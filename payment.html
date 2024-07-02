@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./payment.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="payment20">
+      <div class="payment-setting">
+        <img class="grad-icon9" alt="" src="./public/grad.svg" />
+
+        <div class="extra9">
+          <div class="payment21">Payment</div>
+          <img
+            class="profile-icon9"
+            alt=""
+            src="./public/profile@2x.png"
+            id="profileIcon"
+          />
+
+          <div class="welcome4">Welcome, KARL!</div>
+          <div class="extra-child6"></div>
+        </div>
+        <div class="onsite-form">
+          <div class="container-credits2">
+            <div class="box5"></div>
+            <div class="student-number">
+              <div class="student-number-child"></div>
+              <div class="student-number1">Student Number</div>
+            </div>
+            <div class="amount4">
+              <img class="downarrow-icon" alt="" src="./public/downarrow.svg" />
+
+              <div class="student-number-child"></div>
+              <div class="payment-for">Amount</div>
+            </div>
+            <div class="payment22">
+              <div class="student-number-child"></div>
+              <div class="payment-for">Payment for</div>
+            </div>
+            <div class="student-name1">
+              <div class="student-number-child"></div>
+              <div class="student-name2">Student Name</div>
+            </div>
+            <b class="onsite">Onsite</b>
+            <div class="process-button" id="processButtonContainer">
+              <img
+                class="process-button-child"
+                alt=""
+                src="./public/rectangle-4042.svg"
+              />
+
+              <div class="proceed">PROCEED</div>
+            </div>
+          </div>
+        </div>
+        <div class="offsite">
+          <div class="container-credits3">
+            <div class="box6"></div>
+            <div class="form-amount">
+              <div class="form-amount-child"></div>
+              <div class="student-name3">
+                <div class="student-name4">Student Name</div>
+              </div>
+            </div>
+            <div class="form-amount1">
+              <div class="form-amount-child"></div>
+              <div class="student-number2">Student Number</div>
+            </div>
+            <div class="form-amount2">
+              <div class="form-amount-child"></div>
+              <div class="amount6">Amount</div>
+            </div>
+            <div class="downarrow"></div>
+            <b class="offsite1">Offsite</b>
+            <div class="process-button1">
+              <div class="process-button-item" id="rectangle"></div>
+              <div class="proceed">PROCEED</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar9">
+        <div class="background9"></div>
+        <div class="adnupay-ver01beta9">AdNUPay ver0.1beta</div>
+        <div class="hover9"></div>
+        <div class="settings25" id="settingsContainer">
+          <div class="settings26">Settings</div>
+          <div class="rectangle-parent6">
+            <div class="group-child36"></div>
+            <div class="group-child37"></div>
+            <div class="group-child38"></div>
+            <div class="group-child39"></div>
+          </div>
+        </div>
+        <div class="transaction20" id="transactionContainer">
+          <div class="transaction21">Transaction</div>
+          <img class="transaction-child6" alt="" src="./public/group-4.svg" />
+        </div>
+        <div class="payment23">
+          <div class="payment24">Payment</div>
+          <img class="payment-child8" alt="" src="./public/group-31.svg" />
+        </div>
+        <div class="dashboard19" id="dashboardContainer">
+          <div class="dashboard20">Dashboard</div>
+          <img class="dashboard-child7" alt="" src="./public/group-21.svg" />
+        </div>
+        <img
+          class="header-icon9"
+          alt=""
+          src="./public/header@2x.png"
+          id="headerImage"
+        />
+      </div>
+    </div>
+
+    <script>
+      var profileIcon = document.getElementById("profileIcon");
+      if (profileIcon) {
+        profileIcon.addEventListener("click", function (e) {
+          window.location.href = "./account-information.html";
+        });
+      }
+
+      var processButtonContainer = document.getElementById("processButtonContainer");
+      if (processButtonContainer) {
+        processButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./queue.html";
+        });
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./payment-visa.html";
+        });
+      }
+
+      var settingsContainer = document.getElementById("settingsContainer");
+      if (settingsContainer) {
+        settingsContainer.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+
+      var transactionContainer = document.getElementById("transactionContainer");
+      if (transactionContainer) {
+        transactionContainer.addEventListener("click", function (e) {
+          window.location.href = "./transaction.html";
+        });
+      }
+
+      var dashboardContainer = document.getElementById("dashboardContainer");
+      if (dashboardContainer) {
+        dashboardContainer.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+
+      var headerImage = document.getElementById("headerImage");
+      if (headerImage) {
+        headerImage.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+    </script>
+  </body>
+</html>
