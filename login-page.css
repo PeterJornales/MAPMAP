@@ -2,7 +2,7 @@
 .grad-item {
   position: absolute;
   top: 738px;
-  left: 675px;
+  left: 762px;
   filter: blur(400px);
   border-radius: 50%;
   background-color: #a39bff;
@@ -11,37 +11,149 @@
 }
 .grad-item {
   top: 0;
-  left: 0;
+  left: 87px;
   background-color: #5647ff;
   width: 1045px;
 }
 .grad,
-.group-child44 {
+.rectangle {
   position: absolute;
-  top: 984px;
-  left: 933px;
-  width: 1870px;
-  height: 1389px;
+  left: 0;
 }
-.group-child44 {
-  top: 1088px;
-  left: 846px;
+.rectangle {
+  top: 104px;
   background-color: var(--color-darkslateblue-200);
   width: 1728px;
   height: 1117px;
 }
-.logo-icon {
-  position: absolute;
-  top: 1359px;
-  left: calc(50% + 689.5px);
-  width: 230px;
-  height: 227px;
-  object-fit: cover;
+.grad {
+  top: -104px;
+  width: 1957px;
+  height: 1389px;
 }
-.group-child45 {
+.connect-with-google-child {
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: var(--br-31xl);
+  width: 319px;
+  height: 31.6px;
+}
+.connect-with-adnu {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 63.6px);
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  font-family: var(--font-lato);
+  color: #fafafa;
+  text-align: left;
+  width: 148.4px;
+  height: 13.8px;
+}
+.image-4-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15.1px;
+  height: 14.8px;
+  object-fit: cover;
+}
+.connect-with-adnu-gbox-parent {
+  position: absolute;
+  top: 7.9px;
+  left: calc(50% - 84.8px);
+  width: 169.6px;
+  height: 14.8px;
+}
+.connect-with-google {
+  position: absolute;
+  top: 88px;
+  left: 0;
+  width: 319px;
+  height: 31.6px;
+  cursor: pointer;
+}
+.or1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 14.3px);
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  font-family: var(--font-lato);
+  color: var(--neutral-white);
+  text-align: right;
+  width: 26.9px;
+  height: 9.9px;
+}
+.or-child {
+  top: 4.9px;
+  left: 0;
+  border-top: 1px solid var(--neutral-white);
+  box-sizing: border-box;
+  width: 67.4px;
+  height: 1px;
+}
+.or,
+.or-child,
+.or-item {
+  position: absolute;
+}
+.or-item {
+  top: 4.9px;
+  left: 127.4px;
+  border-top: 1px solid var(--neutral-white);
+  box-sizing: border-box;
+  width: 67.4px;
+  height: 1px;
+}
+.or {
+  top: 47px;
+  left: calc(50% - 103px);
+  width: 193.8px;
+  height: 9.9px;
+}
+.sign-in-with-student-id-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 319px;
+  height: 32.6px;
+}
+.login {
+  position: absolute;
+  top: 9px;
+  left: calc(50% - 20.5px);
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  font-family: var(--font-lato);
+  color: var(--neutral-white);
+  text-align: left;
+  width: 54px;
+  height: 14px;
+}
+.sign-in-with-student-id {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 319px;
+  height: 32.6px;
+}
+.group-child44,
+.login-button {
+  position: absolute;
+  top: 454px;
+  left: 0;
+  width: 320px;
+  height: 119.6px;
+}
+.group-child44 {
+  top: 0;
   border-radius: var(--br-31xl);
   background-color: var(--color-whitesmoke-200);
   width: 319px;
@@ -120,129 +232,32 @@
   width: 90.9px;
   height: 13.8px;
 }
-.connect-with-google-child,
 .forms {
   position: absolute;
-  top: 1662.2px;
-  left: 2046px;
+  top: 303.2px;
+  left: 0;
   width: 319px;
   height: 102.7px;
 }
-.connect-with-google-child {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-31xl);
-  height: 31.6px;
-}
-.connect-with-adnu {
+.logo-icon {
   position: absolute;
   top: 0;
-  left: calc(50% - 63.6px);
-  font-size: var(--font-size-xs);
-  display: inline-block;
-  font-family: var(--font-lato);
-  color: #fafafa;
-  text-align: left;
-  width: 148.4px;
-  height: 13.8px;
-}
-.image-4-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 15.1px;
-  height: 14.8px;
+  left: calc(50% - 115px);
+  width: 230px;
+  height: 227px;
   object-fit: cover;
 }
-.connect-with-adnu-gbox-parent {
+.login-button-parent {
   position: absolute;
-  top: 7.9px;
-  left: calc(50% - 84.8px);
-  width: 169.6px;
-  height: 14.8px;
+  top: 271px;
+  left: 1200px;
+  width: 320px;
+  height: 573.6px;
 }
-.connect-with-google {
+.login-page-child {
   position: absolute;
-  top: 1901px;
-  left: 2046px;
-  width: 319px;
-  height: 31.6px;
-  cursor: pointer;
-}
-.or1 {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 14.3px);
-  font-size: var(--font-size-mini);
-  display: inline-block;
-  font-family: var(--font-lato);
-  color: var(--neutral-white);
-  text-align: right;
-  width: 26.9px;
-  height: 9.9px;
-}
-.or-child {
-  top: 4.9px;
-  left: 0;
-  border-top: 1px solid var(--neutral-white);
-  box-sizing: border-box;
-  width: 67.4px;
-  height: 1px;
-}
-.or,
-.or-child,
-.or-item {
-  position: absolute;
-}
-.or-item {
-  top: 4.9px;
-  left: 127.4px;
-  border-top: 1px solid var(--neutral-white);
-  box-sizing: border-box;
-  width: 67.4px;
-  height: 1px;
-}
-.or {
-  top: 1860px;
-  left: calc(50% + 701.5px);
-  width: 193.8px;
-  height: 9.9px;
-}
-.sign-in-with-student-id-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-31xl);
-  width: 319px;
-  height: 32.6px;
-}
-.login {
-  position: absolute;
-  top: 9px;
-  left: calc(50% - 20.5px);
-  font-size: var(--font-size-xs);
-  display: inline-block;
-  font-family: var(--font-lato);
-  color: var(--neutral-white);
-  text-align: left;
-  width: 54px;
-  height: 14px;
-}
-.sign-in-with-student-id {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 1813px;
-  left: 2047px;
-  width: 319px;
-  height: 32.6px;
-}
-.group-child47 {
-  position: absolute;
-  top: 0;
-  left: 1084.9px;
+  top: -1088px;
+  left: 238.9px;
   background-color: var(--neutral-white);
   width: 1437px;
   height: 1991.9px;
@@ -251,23 +266,16 @@
 }
 .login-icon {
   position: absolute;
-  height: 11.21%;
-  width: 24.53%;
-  top: 54.9%;
-  right: 38.89%;
-  bottom: 33.89%;
-  left: 36.58%;
+  height: 24.62%;
+  width: 39.8%;
+  top: 23.16%;
+  right: 49.83%;
+  bottom: 52.22%;
+  left: 10.37%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: contain;
-}
-.grad-parent {
-  position: absolute;
-  top: -1088px;
-  left: -846px;
-  width: 2803px;
-  height: 2453.2px;
 }
 .login-page {
   cursor: pointer;

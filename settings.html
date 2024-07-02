@@ -81,15 +81,6 @@
                 id="icons1"
               />
             </div>
-            <div class="change-account-pin5" id="changeAccountPin">
-              Change Account Pin
-            </div>
-            <img class="icon-lock" alt="" src="./public/-icon-lock.svg" />
-          </div>
-          <div class="account-information4">
-            <div class="account-information5" id="accountInformationText">
-              Account information
-            </div>
             <div class="button2">
               <img class="icons" alt="" src="./public/icons2.svg" />
 
@@ -100,6 +91,15 @@
                 src="./public/icons3.svg"
                 id="icons1"
               />
+            </div>
+            <div class="change-account-pin5" id="changeAccountPin">
+              Change Account Pin
+            </div>
+            <img class="icon-lock" alt="" src="./public/-icon-lock.svg" />
+          </div>
+          <div class="account-information4">
+            <div class="account-information5" id="accountInformationText">
+              Account information
             </div>
             <img class="icon-user" alt="" src="./public/-icon-user.svg" />
           </div>
@@ -173,6 +173,13 @@
         });
       }
 
+      var icons1 = document.getElementById("icons1");
+      if (icons1) {
+        icons1.addEventListener("click", function (e) {
+          window.location.href = "./account-information.html";
+        });
+      }
+
       var changeAccountPin = document.getElementById("changeAccountPin");
       if (changeAccountPin) {
         changeAccountPin.addEventListener("click", function (e) {
@@ -183,13 +190,6 @@
       var accountInformationText = document.getElementById("accountInformationText");
       if (accountInformationText) {
         accountInformationText.addEventListener("click", function (e) {
-          window.location.href = "./account-information.html";
-        });
-      }
-
-      var icons1 = document.getElementById("icons1");
-      if (icons1) {
-        icons1.addEventListener("click", function (e) {
           window.location.href = "./account-information.html";
         });
       }

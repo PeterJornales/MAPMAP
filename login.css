@@ -1,10 +1,18 @@
 .frame-icon {
   position: absolute;
-  top: -603px;
-  left: -437px;
+  top: 749px;
+  left: 0;
   width: 2394px;
-  height: 2138px;
+  height: 1389px;
   overflow: hidden;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--neutral-white);
+  width: 2165px;
+  height: 2096px;
 }
 .frame-icon1 {
   width: 1340.5px;
@@ -31,25 +39,34 @@
   height: 159px;
   flex-shrink: 0;
 }
-.frame,
-.logo {
+.frame1 {
+  align-self: stretch;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-}
-.frame {
-  align-self: stretch;
   align-items: flex-end;
   justify-content: center;
   margin-top: -141px;
 }
+.frame,
 .logo {
   position: absolute;
-  top: 466px;
-  left: -437px;
+  overflow: hidden;
+}
+.logo {
+  top: 1069px;
+  left: 0;
   width: 1687px;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.frame {
+  top: -603px;
+  left: -437px;
+  width: 2394px;
+  height: 2138px;
 }
 .login1 {
   width: 100%;

@@ -188,14 +188,8 @@
   flex-shrink: 0;
   cursor: pointer;
 }
-.button,
-.change-account-pin5 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-}
 .button {
-  top: 9px;
+  top: 79px;
   left: 796.8px;
   border-radius: var(--br-5xs);
   width: 324.2px;
@@ -205,8 +199,26 @@
   box-sizing: border-box;
   gap: var(--gap-5xs);
 }
+.button,
+.button2,
 .change-account-pin5 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.button2 {
   top: 0;
+  left: 799px;
+  border-radius: var(--br-5xs);
+  width: 319px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.change-account-pin5 {
+  top: 70px;
   left: 59px;
   font-size: var(--font-size-6xl);
   font-family: var(--font-poppins);
@@ -216,11 +228,11 @@
 }
 .icon-lock {
   position: absolute;
-  height: 30.3%;
+  height: 14.71%;
   width: 1.34%;
-  top: 31.82%;
+  top: 66.91%;
   right: 98.66%;
-  bottom: 37.88%;
+  bottom: 18.38%;
   left: 0;
   max-width: 100%;
   overflow: hidden;
@@ -228,44 +240,28 @@
 }
 .change-account-pin4 {
   position: absolute;
-  top: 178px;
+  top: 108px;
   left: 27px;
   width: 1121px;
-  height: 66px;
+  height: 136px;
   color: var(--neutral-white);
 }
-.account-information5,
-.button2 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-}
 .account-information5 {
+  position: absolute;
   top: 0;
   left: 60.9px;
+  display: flex;
+  align-items: center;
   width: 378.1px;
   height: 66px;
   cursor: pointer;
 }
-.button2 {
-  top: 9px;
-  left: 801.3px;
-  border-radius: var(--br-5xs);
-  width: 323.7px;
-  flex-direction: row;
-  justify-content: center;
-  padding: var(--padding-sm) var(--padding-5xl);
-  box-sizing: border-box;
-  gap: var(--gap-5xs);
-  font-size: var(--body-body-16-size);
-  font-family: var(--text-regular-2);
-}
 .icon-user {
   position: absolute;
   height: 30.3%;
-  width: 1.96%;
+  width: 5.03%;
   top: 31.82%;
-  right: 98.04%;
+  right: 94.97%;
   bottom: 37.88%;
   left: 0;
   max-width: 100%;
@@ -277,7 +273,7 @@
   position: absolute;
   top: 90px;
   left: 23px;
-  width: 1125px;
+  width: 439.1px;
   height: 66px;
   font-size: var(--font-size-6xl);
   color: var(--neutral-white);
